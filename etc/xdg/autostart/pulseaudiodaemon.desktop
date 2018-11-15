@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=PulseAudio Daemon Sound System
+Name[es]=Demonio del Sistema de Sonido PulseAudio
+Comment=Start the PulseAudio Sound Daemon System
+Comment[es]=Iniciar el Demonio de Sonido Pulse
+Exec="/usr/bin/daemonpulse.sh"
+Terminal=false
+Type=Application
+Categories=
+GenericName=
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-phase=1
+NoDisplay=true
