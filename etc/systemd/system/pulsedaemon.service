@@ -1,0 +1,13 @@
+[Unit]
+Description=PulseAudio Daemon
+
+[Service]
+ExecStart=pulseaudio -D
+ExecStart=pulseaudio -D
+ExecStart=pulseaudio -D
+ExecStart=pulseaudio -D ignore failure
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
